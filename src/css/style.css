@@ -1,0 +1,21 @@
+body {
+    color: #999;
+}
+.game-wrapper {
+    display: inline-block;
+}
+.game-row {
+    display: flex;
+}
+.game-cell {
+    border: 1px solid #333;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    cursor: url("../img/cursor.png"), auto;
+}
+.goblin {
+    background: url("../img/goblin.png") no-repeat center;
+    background-size: contain;
+    height: 100%;
+}
