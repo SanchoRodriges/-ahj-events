@@ -59,7 +59,4 @@ export default class Game {
     }
   }
 
-  gameOver() {
-
-  }
 }
